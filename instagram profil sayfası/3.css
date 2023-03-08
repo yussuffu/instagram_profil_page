@@ -1,0 +1,328 @@
+#pencere{
+    position: absolute;
+    display: inline-block;
+    z-index: -1;
+    width: 450px;
+    height: 800px;
+    background-color: black;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+#ust_bar{
+    display: inline-block;
+    position:fixed;
+    top: 20px;
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+}
+.profil{
+    position: absolute;
+    display: inline-block;
+    width: 430px;
+    height: 220px;
+    top: 80px;
+    left: 10px;
+    border: 1px solid black;
+}
+.profil #profil_foto{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.profil #gonderi{
+    position: absolute;
+    left: 180px;
+    color: white;
+}
+.profil #gonderi h2{
+    position: absolute;
+    left: 20px;
+    top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.profil #gonderi h4{
+    position: absolute;
+    top: 37px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profil #takipci{
+    position: absolute;
+    left: 280px;
+    color: white;
+}
+.profil #takipci h2{
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.profil #takipci h4{
+    position: absolute;
+    top: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.profil #takip{
+    position: absolute;
+    left: 370px;
+    color: white;
+}
+.profil #takip h2{
+    position: absolute;
+    top: 6px;
+    left: -3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+.profil #takip h4{
+    position: absolute;
+    top: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.profil #user_info{
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    top: 54%;
+}
+.profil #user_info h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.02cm;
+    
+}
+#insta_kilit{
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    color: white;
+    font-size: 15px;
+}
+#kullanici_adi{
+    position: absolute;
+    top: -10px;
+    left: 36px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.03cm;
+}
+#insta_assaok{
+    position: absolute;
+    top: 18px;
+    left: 205px;
+    color: white;
+    font-size: 15px;
+}
+#insta_add{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 340px;
+    font-size: 35px;
+}
+#insta_options{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 395px;
+    font-size: 35px;
+}
+#alt_bar{
+    display: inline-block;
+    position:fixed;
+    top: 750px;
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+}
+#alt_bar #insta_home{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 15px;
+    font-size: 35px;
+}
+#alt_bar #insta_search{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 105px;
+    font-size: 35px;
+}
+#alt_bar #insta_add{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 205px;
+    font-size: 35px;
+}
+#alt_bar #insta_reels{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 305px;
+    font-size: 35px;
+}
+#alt_bar #insta_profil{
+    position:absolute;
+    color: white;
+    top: 5px;
+    left: 400px;
+    font-size: 35px;
+}
+.profil_edit{
+    position: absolute;
+    border: 1px solid black;
+    width: 430px;
+    height: 50px;
+    top: 315px;
+    left: 6px;
+}
+.profil_edit #profil_duzenle{
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: rgb(37, 37, 37);
+}
+.profil_edit #profil_duzenle h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    position:absolute;
+    top: -24%;
+    left: 36px;
+    color: white;
+}
+.profil_edit #profil_paylas{
+    position: absolute;
+    width: 190px;
+    height: 40px;
+    left: 200px;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: rgb(37, 37, 37);
+}
+.profil_edit #profil_paylas h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    position:absolute;
+    top: -24%;
+    left: 36px;
+    color: white;
+}
+.profil_edit #benzer_kisiler{
+    position: absolute;
+    width: 37px;
+    height: 40px;
+    left: 397px;
+    border: 1px solid black;
+    border-radius: 11px;
+    background-color: rgb(37, 37, 37);
+}
+.profil_edit #benzer_kisiler i{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 26%;
+}
+.ara_info{
+    position: absolute;
+    width: 430px;
+    height: 30px;
+    border: 1px solid black;
+    top: 380px;
+    left: 7px;
+}
+.ara_info #info{
+    position: absolute;
+    width: 230px;
+    height: 20px;
+    border: 1px solid black;
+    top: 0px;
+    left: 7px;
+}
+.ara_info #info h3{
+    position: absolute;
+    top: -20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:600;
+}
+.ara_info #insta_assaok2{
+    position: absolute;
+    color: white;
+    left: 400px;
+}
+.insta_fotolar{
+    position: absolute;
+    width: 430px;
+    height: 300px;
+    top: 52%;
+    left: 6px;
+    border: 1px solid black;
+}
+.insta_fotolar #foto{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 100px;
+    border: 1px solid black;
+
+}
+.insta_fotolar #foto i{
+    color: white;
+    font-size: 35px;
+}
+.insta_fotolar #hashtag{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 300px;
+    border: 1px solid black;
+
+}
+.insta_fotolar #hashtag i{
+    color: white;
+    font-size: 35px;
+} 
+#cizgi{
+    position: absolute;
+    width: 225px;
+    top: 45px;
+
+}
+#cizgi2{
+    position: absolute;
+    width: 200px;
+    top: 46px;
+    left: 227px;
+    
+
+}
+#fotolar img{
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    top: 58px;
+    object-fit: cover;
+}
